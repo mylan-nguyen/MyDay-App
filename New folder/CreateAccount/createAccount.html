@@ -11,17 +11,22 @@
 <body>
     <div class="container">
         <h1>Create Your Account</h1>
-        <form class="container form-container">
+        <form class=" form-container">
             <input type="email" placeholder="Email" required>
             <input type="password" placeholder="Password" required>
-            <button href="/Main/HACKTHON.html" type="submit">Sign Up</button>
+            <button id="form" onClick="myFunction()" type="submit">Sign Up</button>
         </form>
         <h4 style="color: gray ;">or continue with</h4>
         <div class="buttons">
-            <a href="/Main/HACKTHON.html"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
-            <a href="/Main/HACKTHON.html"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
-            <a href="/Main/HACKTHON.html"><i class="fa fa-reddit-square" style="font-size:36px"></i></a>
+            <a href="/HomePageAPICall/Home.html"><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+            <a href="/HomePageAPICall/Home.html"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+            <a href="/HomePageAPICall/Home.html"><i class="fa fa-reddit-square" style="font-size:36px"></i></a>
         </div>
     </div>
+    <script>
+        document.getElementById('form').addEventListener("click", myFunction=>{
+            window.location.href="/HomePageAPICall/Home.html";
+        })
+    </script>
 </body>
 </html>
