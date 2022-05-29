@@ -1,0 +1,7 @@
+autopep8
+fastapi
+psycopg2-binary
+python-dotenv
+requests
+sqlalchemy
+sqlalchemy-cockroachdb
